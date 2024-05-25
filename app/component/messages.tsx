@@ -10,7 +10,7 @@ type Props = {
 
 const Messages = ({ messages, isLoading }: Props) => {
   return (
-    <div id="chatbox" className="flex flex-col-reverse w-full text-left mt-4 gap-4 whitespace-pre-wrap">
+    <div id="chatbox" className="flex flex-col-reverse w-full text-left mt-4 gap-4 whitespace-pre-wrap text-black">
       {messages.map((m, index) => {
         return (
           <>
